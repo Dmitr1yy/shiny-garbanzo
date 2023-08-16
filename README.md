@@ -4,7 +4,7 @@ const { removeKFromList } = require('../src/remove-from-list.js');
 
 it.optional = testOptional;hh
 
-Object.freeze(assert);
+Object.freeze(assert);ss
 
 function convertArrayToList(arr) {
   return arr.reverse().reduce((acc, cur) => {
